@@ -9,7 +9,7 @@ Een Jupyter Book gemaakt met MyST vraagt een collectie van markdown en jupyter n
 ```
 
 ## Structuur
-We kunnen hier onderscheid maken in twee structuren: die van de inhoud van de boek (een collectie van verschillende documenten), en de (interne)structuur van de hoofdstukken.
+We kunnen hier onderscheid maken in twee structuren: die van de inhoud van het boek (een collectie van verschillende documenten), en de (interne)structuur van de hoofdstukken.
 
 ### Table of Contents
 De software waar we gebruik van maken bouwt zelf een inhoudsopgave (Table of contents, ookwel ToC). Dat gaat op alfabetische volgorde. Maar je kunt ook zelf de ToC specificeren. Dit kan wel het beste door offline te werken (myst init --toc), zie de [documentatie van MyST](https://mystmd.org/guide/table-of-contents#toc-format-legacy). 
@@ -135,7 +135,9 @@ Voor de betavakken zijn wiskundige vergelijkingen essentieel. Ook in JB's kun je
 
 $$ F_{res} = m \cdot a$$ (eq:Newton)
 
-Waarbij gelabelde vergelijkingen, zoals vergelijking {eq}`eq:Newton` naar verwezen kan worden. 
+Waarbij gelabelde vergelijkingen ontstaan, zoals vergelijking {eq}`eq:Newton`, waarnaar verwezen kan worden. 
+
+Gebruik hiervoor:
 
 `$$ Vergelijking $$ (eq:<label>)`
 
@@ -195,9 +197,9 @@ Maak de som $4+2$
 ## Figuren
 Een site / boek kan natuurlijk niet zonder figuren. Er zijn grofweg twee manieren om een figuur te maken
 
-*Snelle figuur, zonder opmaak mogelijkheden*
+*korte syntax voor een figuur, zonder opmaak mogelijkheden*
 
-| Snelle figuur | `![](link naar figuur)` |
+| Snel figuur | `![](link naar figuur)` |
 
 *Betere manier met meer controle:*
 

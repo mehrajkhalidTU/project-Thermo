@@ -66,7 +66,7 @@ Ga naar [GitHub](https://github.com/) en doorloop onderstaande stap.
 8. Maak een nieuwe repository aan op GitHub (via de `+` rechtsboven in je scherm en dan `new repository`).  
 9. Kies jullie groepsnummer als naam voor je repository (dit zal ook deel uitmaken van je URL!), verifieer dan dat `Choose visibility *
 ` op `public` staat. Klik daarna op de groene knop `Create repositorty`.
-10. Ga in je repository naar `settings` en in het linkermenu naar `Pages` en kies onder her kopje `Source` de optie `Github actions`.
+10. Ga in je repository naar `settings` en in het linkermenu naar `Pages` en kies onder het kopje `Source` de optie `Github actions`.
 11. Klik op `code` (linksboven).
 12. Kopier de url van je nieuwe repository (deze heb je zo dadelijk nodig).
 
