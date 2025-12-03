@@ -4,7 +4,6 @@ site:
   hide_outline: true
   hide_toc: true
   hide_title_block: true
-updated: December 3, 2025
 ---
 
 <div style="text-align: center">
